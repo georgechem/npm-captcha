@@ -1,0 +1,22 @@
+{
+    "name": "georgechem/php-backend",
+    "description": "backend of captcha application",
+    "type": "project",
+    "require": {
+        "php": ">=8.0.0",
+        "georgechem/captcha": "^1.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Georgechem\\PhpBackend\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Grzegorz Chrymecki",
+            "email": "grzegorzchrymecki@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
